@@ -1,5 +1,13 @@
 @font-face {
   font-family: "ubunto";
   src: url("assets/fonts/Ubuntu-Regular.ttf");
-  
+  }
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.header{}
+.footer{}
+.main{}
