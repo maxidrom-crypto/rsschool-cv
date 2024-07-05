@@ -1,4 +1,5 @@
-![mountains](/assets/img/avatar.jpg "Sirius")
+
+<img src="/assets/img/avatar.jpg" alt="Sirius" width="200"/>
 
 # Кущев Максим Андреевич
 ## тел. +7 967-776-15-22
