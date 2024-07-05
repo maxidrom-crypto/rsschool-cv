@@ -1,3 +1,5 @@
+![mountains](/assets/img/avatar "Sirius")
+
 # Кущев Максим Андреевич
 ## тел. +7 967-776-15-22
 
