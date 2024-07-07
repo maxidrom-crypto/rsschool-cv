@@ -369,8 +369,9 @@ li > a {
   animation-duration: 13s;
 }
 
-#git_hub {
- width: 82px;
+.git_hub {
+width: 82px;
+max-width: 10px;
 }
 
 
