@@ -369,6 +369,10 @@ li > a {
   animation-duration: 13s;
 }
 
+#git_hub {
+width: 82px;	
+}
+
 #github:hover {
   color: black;
 }
