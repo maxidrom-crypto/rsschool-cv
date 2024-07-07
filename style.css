@@ -8,8 +8,36 @@
   justify-content: space-between;
 }
 
-.header{}
-.section-title{}
+ul.nav{
+                margin-left: 300px;
+                padding-left: 10px;
+                list-style: none;
+            }
+            .nav li { 
+                float: left;
+            }
+            ul.nav a {
+                display: block;
+                width: 15em;
+                padding:15px;
+                margin: 0 15px;
+                background-color: #f4f4f4;
+                border: 1px dashed #333;
+                text-decoration: none;
+                color: #333;
+                text-align: center;
+            }
+            ul.nav a:hover{
+                background-color: #333;
+                color: #f4f4f4;
+            }
+
+
+
+
+
+
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -319,7 +347,7 @@ li > a {
     margin-top: 175px;
   }
   #rs-logo {
-    width: 82px;
+    width: 62px;
   }
   #youtube {
     width: 82px;
