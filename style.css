@@ -1,0 +1,416 @@
+@font-face {
+  font-family: "ubunto";
+  src: url("assets/fonts/Ubuntu-Regular.ttf");
+  }
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul.nav{
+                margin-left: 100px;
+                padding-left: 10px;
+                list-style: none;
+            }
+            .nav li { 
+                float: left;
+            }
+            ul.nav a {
+                display: block;
+                width: 15em;
+                padding:15px;
+                margin: 0 15px;
+                background-color: #f4f4f4;
+                border: 1px dashed #333;
+                text-decoration: none;
+                color: #333;
+                text-align: center;
+            }
+            ul.nav a:hover{
+                background-color: #333;
+                color: #f4f4f4;
+            }
+
+
+
+
+
+
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+ }
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.footer{}
+.main{}
+
+.img_pos{
+	float:left; /* обтекание слева */
+    margin:10px;
+    margin-top:0px;
+}
+
+
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+.main-wrapper {
+  position: relative;
+  margin: 0px auto;
+  background-color: #fff;
+}
+.left{
+float: left;
+padding: 0 20px 20px 0;]
+margin:0 20px 20px 0;
+}
+
+.intro {
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 54px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.nav > ul > li {
+  display: inline-block;
+}
+*/
+
+.gray {
+  position: relative;
+  background: #f6f6f6;
+}
+
+#gray-1 {
+  margin: 0 0 0 auto;
+}
+
+#photo {
+  display: block;
+  margin: 0 0 0 auto;
+}
+
+.gray {
+  position: relative;
+  background: #f6f6f6;
+}
+
+#gray-1 {
+  margin: 0 0 0 auto;
+}
+
+  .header {
+    display: none;
+  }
+  
+  .nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav > ul > li {
+  display: inline-block;
+}
+
+.under::after {
+  content: "";
+  margin: 0 auto;
+  margin-top: 2px;
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: black;
+  transition: 500ms;
+}
+
+  #great-text {
+    width: 0px;
+    left: 20px;
+    top: 75px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  .heading {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: rgba(153, 153, 153, 1);
+}
+
+.section {
+  position: relative;
+  margin-top: 50px;
+}
+
+  .title {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  
+    .main-text {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  
+    .centered {
+    margin-top: 115px;
+    margin-left: 220px;
+  }
+  
+    .centered {
+    margin-left: 355px;
+  }
+  
+  .title-wrapper {
+  position: relative;
+}
+
+.title {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 2;
+}
+
+  .purple {
+    bottom: 15px;
+  }
+  
+  
+  #first-p {
+    left: 50px;
+	
+	  .main-text {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  
+  .heading {
+    margin-top: 175px;
+    font-size: 50px;
+    line-height: 75px;
+  }
+  
+  .section {
+    margin-left: 218px;
+  }
+  
+    .title {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  
+  #skills {
+  list-style-image: url("../icons/square.png");
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+}
+
+
+@media (min-width: 20px) {
+  .main-wrapper {
+    width: 1400px;
+  }
+  #great-text {
+    font-size: 80px;
+    line-height: 100px;
+  }
+  #photo {
+    width: 592px;
+  }
+  .gray {
+    width: 1045px;
+  }
+  .header {
+    width: 453px;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  #about-me {
+    width: 927px;
+  }
+  .section {
+    margin-left: 218px;
+  }
+  
+  .centered {
+    margin-left: 355px;
+  }
+  
+  .heading {
+    margin-top: 175px;
+    font-size: 50px;
+    line-height: 75px;
+  }
+  .title {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  .main-text {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .footer {
+    height: 130px;
+    margin-top: 175px;
+  }
+  #rs-logo {
+    width: 62px;
+  }
+  #youtube {
+    width: 82px;
+  }
+
+  .purple {
+    bottom: -5px;
+  }
+
+  #first-p {
+    left: 150px;
+  }
+  #second-p {
+    left: 115px;
+  }
+  #third-p {
+    left: 30px;
+  }
+
+  .footer-content {
+    margin: 0 auto;
+    width: 1400px;
+  }
+
+  iframe {
+    width: 560px;
+    height: 315px;
+    margin-top: 25px;
+    margin-left: 120px;
+  }
+}
+
+.footer {
+  background-color: #f6f6f6;
+}
+
+.footer-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#github {
+  display: block;
+  text-decoration: none;
+
+  animation-duration: 13s;
+}
+
+.git_hub {
+max-width: 100px;
+}
+
+
+#github:hover {
+  color: black;
+}
+
+#time {
+  display: block;
+}
