@@ -369,9 +369,9 @@ li > a {
   animation-duration: 13s;
 }
 
-#git_hub {
+.git_hub {
 width: 82px;
-max-width: 100px;
+max-width: 10px;
 }
 
 #github:hover {
