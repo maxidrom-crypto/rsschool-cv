@@ -271,7 +271,7 @@ li > a {
 }
 
 
-@media (min-width: 1600px) {
+@media (min-width: 20px) {
   .main-wrapper {
     width: 1400px;
   }
